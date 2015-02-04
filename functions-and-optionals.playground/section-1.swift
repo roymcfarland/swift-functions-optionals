@@ -6,6 +6,7 @@ import UIKit
 //////// CREATING A FUNCTION ///////////
 ////////////////////////////////////////
 
+/*
 func calculateArea() {
     let height = 12
     let width = 10
@@ -14,3 +15,13 @@ func calculateArea() {
 }
 
 calculateArea()
+*/
+
+/*
+func calculateArea(height: Int, width: Int) {
+    let area = height * width
+    println("The area of the room is \(area)")
+}
+
+calculateArea(10, 200)
+*/
