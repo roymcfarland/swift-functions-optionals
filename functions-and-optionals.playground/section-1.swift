@@ -25,3 +25,15 @@ func calculateArea(height: Int, width: Int) {
 
 calculateArea(10, 200)
 */
+
+////////////////////////////////////////
+//////// FUNCTION RETURN TYPES /////////
+////////////////////////////////////////
+
+func calculateArea(height: Int, width: Int) -> Int {
+    var area = height * width
+    return area
+}
+
+var answer = calculateArea(10, 20)
+println("\(answer)")
